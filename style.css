@@ -1,0 +1,77 @@
+#row1 {
+  font-weight: bold;
+  background-color: white;
+}
+
+.col1 {
+  background-color: white;
+}
+
+tr {
+  background-color: orange;
+  text-align: center;
+}
+
+td, th {
+  border: black solid 1px;
+  padding: 5px;
+}
+
+.col1 {
+  font-style: italic;
+}
+
+tr:nth-of-type(even) {
+  background-color: lightblue;
+}
+
+caption {
+  border: red 5px solid;
+  font-weight: bold;
+}
+
+table {
+  border: black 5px solid;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+tfoot td {
+  background-color: lightgrey;
+}
+
+section {
+  border-top: 10px;
+}
+
+.outer-content {
+  background: pink;
+  text-align: left;
+  width: 75%;
+  margin-top: 20px;
+
+}
+
+.inner-content {
+  background-color: blue;
+  width: 75%;
+  color: yellow;
+  text-align: center;
+}
+
+form {
+  border: black;
+}
+
+form div {
+  border: blue solid 1px;
+  padding: 5px;
+}
+
+#forms p {
+  text-align: center;
+  border: 2px solid orange;
+  background-color: aqua;
+}
